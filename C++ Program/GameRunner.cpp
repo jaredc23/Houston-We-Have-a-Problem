@@ -26,7 +26,7 @@ SerialPort GameRunner::arduino = SerialPort((char*) SerialPort::getPortName().c_
 
 void timer_start(std::function<void(void)> func, unsigned int interval)
 {
-    std::thread([func, interval]() {
+    std::thread([func, interval]() { //Make a separate thread for the timer
         while (true)
         {
             func();
@@ -49,14 +49,21 @@ void updateTimer() {
     else if(GameRunner::countdown == 0)
     {
         if(GameRunner::state == 1) {
-            GameRunner::taskManager = TaskManager(235, GameRunner::digits[0].num, GameRunner::playerNum,
+            long num = 0;
+            for(int i = 0; i < 9; i++){
+                num+= GameRunner::digits[i].num;
+                num*=10;
+            }
+            num/=10;
+            cout<<num<<endl;
+            GameRunner::taskManager = TaskManager(num, GameRunner::digits[0].num, GameRunner::playerNum,
                                                   GameRunner::W, GameRunner::H - GameRunner::H / 8);
-            if(true) {
+            if(true) { //For testing
                 string g = "";
                 for (int i = 0; i < 5; i++) {
                     g += to_string(TaskManager::taskOrder[i]);
                 }
-                GameRunner::arduino.send(g + "$");
+                GameRunner::arduino.send(g + "$"); //Send the task order to the arduino
                 cout<<g<<endl;
                 cout<<GameRunner::arduino.waitForRead()<<endl;
                 for (int i = 0; i < 5; i++) {
@@ -107,6 +114,11 @@ void updateTimer() {
             GameRunner::state = 2;
             GameRunner::countdown = 600;
             updateScreen();
+        }
+        else if(GameRunner::state >= 2)
+        {
+            MessageBoxA("You ran out of time!", "You lost!");
+            exit(0);
         }
     }
 }
@@ -212,7 +224,7 @@ void GameRunner::mouseEvent(int x, int y) {
         if(startButton.I$$$$(x,y)) {
             playerNum = playerButton.increment(-1,-1);
             state++;
-            long a = time(NULL) + 3; //15 //30
+            long a = time(NULL) + 30;
             for(int i = 8; i >= 1; i--)
             {
                 digits[i].num = a%10;
@@ -277,8 +289,8 @@ void GameRunner::mouseEvent(int x, int y) {
     }
 
     if(state == 7) {
-        state = 0;
-        countdown = 0;
+        MessageBoxA("You won!", "Winner!");
+        exit(0);
     }
 }
 

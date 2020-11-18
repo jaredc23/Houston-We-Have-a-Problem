@@ -39,7 +39,7 @@ using namespace std;
 #include <functional>
 
 
-class GuiClass
+class GuiClass //Defining GuiClass instead of main because GUIS are periodic and not a one time thing like main
 {
 public:
     GuiClass();
@@ -47,7 +47,7 @@ public:
     void GuiPaint();
     string Title();
 private:
-    GameRunner g;
+    GameRunner g; //This is the game
 };
 
 GuiClass::GuiClass()
@@ -55,19 +55,19 @@ GuiClass::GuiClass()
 
 }
 
-string GuiClass::Title()
+string GuiClass::Title() //This sets the title
 {
     return("Houston, We Have a Problem");
 }
 
-void GuiClass::GuiMouseClick(int x, int y)
+void GuiClass::GuiMouseClick(int x, int y) //what do do when the mouse is clicked
 {
-    g.mouseEvent(x,y);
+    g.mouseEvent(x,y); //Triggers a mouse event
 }
 
-void GuiClass::GuiPaint()
+void GuiClass::GuiPaint() //When the screen is repainted
 {
-    g.paint();
+    g.paint(); //Call the paint function
 }
 
 #include "Gui_bot.h"
