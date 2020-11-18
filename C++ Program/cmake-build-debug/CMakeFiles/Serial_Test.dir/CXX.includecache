@@ -1,0 +1,60 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/GameRunner.h
+SerialPort.h
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/SerialPort.h
+NumberButton.h
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/NumberButton.h
+TaskManager.h
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/TaskManager.h
+iostream
+-
+functional
+-
+
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/Gui_top.h
+windows.h
+-
+string.h
+-
+
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/NumberButton.h
+iostream
+-
+
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/SerialPort.h
+windows.h
+-
+stdio.h
+-
+stdlib.h
+-
+iostream
+-
+vector
+-
+
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/TaskManager.cpp
+TaskManager.h
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/TaskManager.h
+GameRunner.h
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/GameRunner.h
+Gui_top.h
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/Gui_top.h
+tgmath.h
+-
+
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/TaskManager.h
+vector
+-
+iostream
+-
+NumberButton.h
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/NumberButton.h
+

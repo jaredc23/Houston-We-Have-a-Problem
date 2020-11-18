@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/SerialPort.cpp
+SerialPort.h
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/SerialPort.h
+
+C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/SerialPort.h
+windows.h
+-
+stdio.h
+-
+stdlib.h
+-
+

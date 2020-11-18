@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Serial_Test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Serial_Test">
+				<Option output="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Serial_Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Serial_Test"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Serial_Test/fast">
+				<Option output="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Serial_Test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 Serial_Test/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/EasyBMP.cpp">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/EasyBMP.h">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/EasyBMP_BMP.h">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/EasyBMP_DataStructures.h">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/EasyBMP_VariousBMPutilities.h">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/GameRunner.cpp">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/GameRunner.h">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/Gui_bot.h">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/Gui_top.h">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/NumberButton.cpp">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/NumberButton.h">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/SerialPort.cpp">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/SerialPort.h">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/TaskManager.cpp">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/TaskManager.h">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/main.cpp">
+			<Option target="Serial_Test"/>
+		</Unit>
+		<Unit filename="C:/Users/Jared/Desktop/2020-2021/Fall/Cornerstone 1/C++ Projects/Serial Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
