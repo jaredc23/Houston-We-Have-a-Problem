@@ -190,7 +190,6 @@ void TaskManager::Paint(int taskNumber)
         }
         correctNum/=10;
         cout<<endl;
-        cout<<"Correct: "<<correctNum<<endl;
         if(isBoth(taskNumber)){
             vector<string> left;
             vector<string> right;
