@@ -61,14 +61,14 @@ void updateTimer() {
             if(true) { //For testing
                 string g = "";
                 for (int i = 0; i < 5; i++) {
-                    g += to_string(TaskManager::taskOrder[i]);
+                    g += to_string(TaskManager::taskOrder[i]+1);
                 }
                 GameRunner::arduino.send(g + "$"); //Send the task order to the arduino
                 cout<<g<<endl;
                 cout<<GameRunner::arduino.waitForRead()<<endl;
                 for (int i = 0; i < 5; i++) {
                     g = "";
-                    if(TaskManager::isBoth(i) || !TaskManager::isTaskGiver(i)) {
+                    if(TaskManager::isBoth(i) || !TaskManager::isTaskGiver(i) || TaskManager::taskOrder[i] == 3 || TaskManager::taskOrder[i] == 6) {
                         if (TaskManager::taskOrder[i] == 0 || TaskManager::taskOrder[i] == 3 || TaskManager::taskOrder[i] == 6) {
                             for (int j = 0; j < TaskManager::randomVariables[i].size(); j++)
                                 g += to_string(TaskManager::randomVariables[i][j]); //Just sending the random variables generated earlier
@@ -224,7 +224,7 @@ void GameRunner::mouseEvent(int x, int y) {
         if(startButton.I$$$$(x,y)) {
             playerNum = playerButton.increment(-1,-1);
             state++;
-            long a = time(NULL) + 30;
+            long a = time(NULL) + 2;//30;
             for(int i = 8; i >= 1; i--)
             {
                 digits[i].num = a%10;
