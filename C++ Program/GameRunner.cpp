@@ -224,7 +224,7 @@ void GameRunner::mouseEvent(int x, int y) {
         if(startButton.I$$$$(x,y)) {
             playerNum = playerButton.increment(-1,-1);
             state++;
-            long a = time(NULL) + 2;//30;
+            long a = time(NULL) + 30;
             for(int i = 8; i >= 1; i--)
             {
                 digits[i].num = a%10;
