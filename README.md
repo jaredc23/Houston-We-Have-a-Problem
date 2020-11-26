@@ -26,6 +26,6 @@ This part will go over how to properly run the C++ Program.
 
 * Open CLion
 * Click File>Open
-* Select the folder called NAME (**not** any individual files) and open it.
+* Select the folder called "C++ Program" (**not** any individual files) and open it.
 * Once the folder opens in CLion, double click the file CMakeLists.txt
 * 
