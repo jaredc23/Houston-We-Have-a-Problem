@@ -18,7 +18,7 @@ This part will be for the code that you need to install in your directories befo
   * This folder is located in **C:\\Users\\Name\\Documents\\Arduino\\libraries\\**
 ## Arduino Code pt. 2
 
-This part is the easiest, just open test.ino, inside of the folder **Arduino\\test**, and upload test.ino. If you get errors, go back to Arduino pt1 and make sure everything is in the correct folder.
+This part is the easiest, just open test.ino, inside of the folder **Arduino Program\\test**, and upload test.ino. If you get errors, go back to Arduino pt1 and make sure everything is in the correct folder.
 
 ## C++ Program
 
