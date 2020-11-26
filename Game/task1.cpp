@@ -27,8 +27,15 @@ boolean task1::start(int a, int b, int c, int d, int e, int f)//This method star
                 return false;
             else
                 Game::ringBuzzer(200);
+
+            //else
+              //  Game::ringBuzzer(200);
         } else if (i == 2) { //Wait for buttons for each round and check if they are all correct
             int b1 = Game::waitForButtons();
+            if (b1 != a)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b2 = Game::waitForButtons();
             if (b1 != a || b2 != b)
                 return false;
@@ -36,7 +43,15 @@ boolean task1::start(int a, int b, int c, int d, int e, int f)//This method star
                 Game::ringBuzzer(200);
         } else if (i == 3) {//Wait for buttons for each round and check if they are all correct
             int b1 = Game::waitForButtons();
+            if (b1 != a)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b2 = Game::waitForButtons();
+            if (b2 != b)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b3 = Game::waitForButtons();
             if (b1 != a || b2 != b || b3 != c)
                 return false;
@@ -44,8 +59,20 @@ boolean task1::start(int a, int b, int c, int d, int e, int f)//This method star
                 Game::ringBuzzer(200);
         } else if (i == 4) {//Wait for buttons for each round and check if they are all correct
             int b1 = Game::waitForButtons();
+            if (b1 != a)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b2 = Game::waitForButtons();
+            if (b2 != b)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b3 = Game::waitForButtons();
+            if (b3 != c)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b4 = Game::waitForButtons();
             if (b1 != a || b2 != b || b3 != c || b4 != d)
                 return false;
@@ -53,9 +80,25 @@ boolean task1::start(int a, int b, int c, int d, int e, int f)//This method star
                 Game::ringBuzzer(200);
         } else if (i == 5) {//Wait for buttons for each round and check if they are all correct
             int b1 = Game::waitForButtons();
+            if (b1 != a)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b2 = Game::waitForButtons();
+            if (b2 != b)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b3 = Game::waitForButtons();
+            if (b3 != c)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b4 = Game::waitForButtons();
+            if (b4 != d)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b5 = Game::waitForButtons();
             if (b1 != a || b2 != b || b3 != c || b4 != d || b5 != e)
                 return false;
@@ -63,17 +106,36 @@ boolean task1::start(int a, int b, int c, int d, int e, int f)//This method star
                 Game::ringBuzzer(200);
         } else if (i == 6) {//Wait for buttons for each round and check if they are all correct
             int b1 = Game::waitForButtons();
+            if (b1 != a)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b2 = Game::waitForButtons();
+            if (b2 != b)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b3 = Game::waitForButtons();
+            if (b3 != c)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b4 = Game::waitForButtons();
+            if (b4 != d)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b5 = Game::waitForButtons();
+            if (b5 != e)
+                return false;
+            else
+                Game::ringBuzzer(200);
             int b6 = Game::waitForButtons();
             if (b1 != a || b2 != b || b3 != c || b4 != d || b5 != e || b6 != f)
                 return false;
             else
                 Game::ringBuzzer(200);
         }
-
     }
     return true;
 }

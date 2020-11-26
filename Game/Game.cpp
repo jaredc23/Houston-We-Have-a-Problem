@@ -157,7 +157,7 @@ void Game::startSerial() { //Starts the serial communication with the c++ progra
 
     for(int i =0; i < 5; i++)
     {
-        taskOrder[i] = data[0].substring(i, i+1).toInt(); //Setting the order of the tasks
+        taskOrder[i] = data[0].substring(i, i+1).toInt()-1; //Setting the order of the tasks
     }
     for(int i = 0; i< 5; i++)
     {
@@ -217,8 +217,8 @@ void Game::loop() //Loop function that will eventually go through each task and 
         if(variables[i][0] != -1) { //If the task requires the arduino
             do {
                 if (taskNumber == 0) { //Each one of these is just calling the start function for each task
-                    b = t1.start(variables[i][0], variables[i][1], variables[i][2], variables[i][3], variables[i][4],
-                                 variables[i][5]);
+                    b = t1.start(variables[i][0]+1, variables[i][1]+1, variables[i][2]+1, variables[i][3]+1, variables[i][4]+1,
+                                 variables[i][5]+1);
                 } else if (taskNumber == 1) {
                     b = t2.start(variables[i][0], variables[i][1], variables[i][2], variables[i][3], variables[i][4],
                                  variables[i][5], variables[i][6], variables[i][7]);
