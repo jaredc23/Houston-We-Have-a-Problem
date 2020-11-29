@@ -1,7 +1,7 @@
 
 How to play the game (Software)
-(For updated troubleshooting or errors read below)
 ---
+**(For <u>updated</u> troubleshooting or errors read below)**
 
 This is a full runthrough of how to fully upload/run all the correct code.
 The four things you (and everyone else playing the game) needs to do is listed below.
