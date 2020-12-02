@@ -17,7 +17,12 @@ This part will be for the code that you need to install in your directories befo
 
 * First, copy the folder called "Game" into the Arduino libraries folder.
   * This folder is located in **C:\\Users\\Name\\Documents\\Arduino\\libraries\\**
-## Arduino Code pt. 2
+  
+## Arduino Code pt. 2 - Testing wiring:
+
+Open Test_Program.ino, inside of the folder **Test_Program\\Test_Program.ino**, and upload Test_Program.ino to the Arduino. If you get errors, go back to Arduino pt1 and make sure everything is in the correct folder. Please use the file Readme (Easier to read on the github website) and follow the instructions there to make sure the Arduino is wired up properly to avoid errors later on.
+
+## Arduino Code pt. 3
 
 This part is the easiest, just open test.ino, inside of the folder **Arduino Program\\test**, and upload test.ino. If you get errors, go back to Arduino pt1 and make sure everything is in the correct folder.
 
